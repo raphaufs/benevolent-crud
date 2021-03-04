@@ -1,0 +1,87 @@
+.containerFirstLine {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.containerSecondLine {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Great Vibes';
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title button {
+    background-color: transparent;
+    border: 0;
+    border-top: 0.11rem solid;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerProfile img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.button {
+    display: flex;
+
+    border: none;
+    background-color: var(--background-color);
+    padding: 0.8rem;
+    outline: none;
+
+}
+
+.button a[data-active="true"] {
+    color: white;
+    background-color: var(--background-color-dark);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 6px;
+    padding: 0.8rem;
+    
+    transition: box-shadow 0.1s ease-in;    
+}
+
+.button a[id='notSelected'] {
+    color: var(--text-color);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    border-color: var(--text-color);
+    border-radius: 6px;
+    padding: 0.8rem;
+    
+    transition: box-shadow 0.1s ease-in;    
+}
+
+.button a:hover {
+    box-shadow: 0 10px 6px rgba(125, 58, 94, 0.822);
+    border-color: var(--text-color);
+}
+
+.leftLogged {
+    display: flex;
+}

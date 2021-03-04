@@ -1,0 +1,13 @@
+.post {
+    background: var(--background-color-dark);
+    border-radius: 10px;    
+    transition: box-shadow 0.1s ease-in;    
+  }
+  
+.post:hover {
+    box-shadow: 0 10px 6px rgba(125, 58, 94, 0.822);
+}
+
+.post + .post {
+    margin-top: 1.5rem;
+}

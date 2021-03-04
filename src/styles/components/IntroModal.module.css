@@ -1,0 +1,57 @@
+.overlay {
+    background: rgba(242, 243, 245, 0.85);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url('/backgroundIntro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 60%;
+    padding: 4rem 7rem;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.container header {
+    font-family: 'Great Vibes';
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.container button {
+    background: transparent;
+    border: 0;
+}
+
+.container button[id='back'] {
+    background-color: rgba(13, 51, 93);
+    color: white;
+    border: 0;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.container button[id='signup'] {
+    background-color: rgba(244, 93, 1);
+    color: white;
+    border: 0;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
